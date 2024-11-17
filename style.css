@@ -87,10 +87,32 @@
   .secondSection {
     max-width: 80vw;
     margin: auto;
+    padding: 0 0 32px;
   }
 
+  /* Styling for the certifications section */
+  .certifications {
+    list-style-type: disc;
+    /* You can change this to "circle" or "square" if you prefer */
+    margin-left: 60px;
+  }
+
+  .certifications li {
+    font-size: 16px;
+    margin: -2px;
+  }
+
+  /* Styling for the span inside the list */
+  .certifications span {
+    /* color: rgb(153, 153, 226); */
+    /* Or any color you'd like */
+    font-style: italic;
+    /* Optional styling */
+  }
+
+
   .secondSection h2 {
-    padding: 5px;
+    padding: 35px 15px 22px;
   }
 
   main hr {
@@ -102,7 +124,7 @@
 
   .text-gray {
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 40px;
   }
 
   .secondSection h1 {
